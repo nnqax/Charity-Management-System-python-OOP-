@@ -38,11 +38,6 @@ class Donor: #initialize the class of the donor
     def __init__(self, name):
         """
         Initializes a new Donor object.
-
-        Args:
-            donor_id (str): Unique identifier for the donor.
-            name (str): Name of the donor.
-            contact_info (str): Contact details of the donor.
         """
         self.name = name
         self.donations = []

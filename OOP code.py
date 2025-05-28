@@ -29,9 +29,9 @@ class Donation: #initialize the class of the donation
 
     def __str__(self):
         if self.donation_type == 'monetary':
-            return f"Donation ID: {self.donation_id}, Donor: {self.donor.name}, Type: Monetary, Amount: ${self.amount}, Date: {self.date}"
+            return f" Donor: {self.donor.name}, Type: Monetary, Amount: ${self.amount}"
         else:
-            return f"Donation ID: {self.donation_id}, Donor: {self.donor.name}, Type: Non-Cash, Description: {self.non_cash_description}, Date: {self.date}"
+            return f" Donor: {self.donor.name}, Type: Non-Cash, Description: {self.non_cash_description}"
 
 class Donor: #initialize the class of the donor
 
